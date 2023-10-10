@@ -16,7 +16,6 @@ h1 {
   font-style: normal;
   font-weight: 700;
   line-height: 26px;
-  /* 54.167% */
   letter-spacing: 4.8px;
   text-transform: uppercase;
 }
@@ -66,7 +65,18 @@ h1 {
   width: 100%;
   min-height: 90px;
   background-color: #5474FD;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+}
+
+.footer-one-words {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
 }
