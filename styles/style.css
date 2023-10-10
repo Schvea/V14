@@ -30,6 +30,7 @@ h1 {
   line-height: 26px;
   letter-spacing: 2.4px;
   text-transform: uppercase;
+  margin-left: 10px;
 }
 
 .introduction {
@@ -40,6 +41,7 @@ h1 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-top: 10%;
 }
 
 .name {
@@ -150,23 +152,22 @@ h1 {
   font-weight: 400;
   line-height: 26px;
   text-transform: uppercase;
-  margin-right: 10%;
 }
 
 .one {
-  padding: 10px;
+  margin: 10px;
 }
 
 .two {
-  padding: 10px;
+  margin: 10px;
 }
 
 .three {
-  padding: 10px;
+  margin: 10px;
 }
 
 .four {
-  padding: 10px;
+  margin: 10px;
 }
 
 .info {
