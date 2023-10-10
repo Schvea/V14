@@ -309,6 +309,11 @@ h1 {
   background-image: url("../images/man-on-cliff.png");
 }
 
+.test {
+  margin-top: 10%;
+  min-height: 100px;
+}
+
 .tourist {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -369,4 +374,64 @@ h1 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.adidas-man {
+  margin: 10px;
+}
+
+.name-ending {
+  color: #FFF;
+  text-align: center;
+  font-family: Josefin Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 3.36px;
+  text-transform: uppercase;
+}
+
+.txt-under-name {
+  color: #FFF;
+  text-align: center;
+  font-family: Josefin Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  /* 162.5% */
+  letter-spacing: 1.6px;
+}
+
+.ending {
+  width: 100%;
+  height: 271px;
+  background-color: #232323;
+}
+
+.social-media {
+  text-align: center;
+}
+
+.facebook {
+  max-width: 15px;
+}
+
+.twitter {
+  max-width: 15px;
+}
+
+.linkedin {
+  max-width: 15px;
+}
+
+.youtube {
+  max-width: 15px;
+}
+
+.pinterest {
+  max-width: 15px;
 }
