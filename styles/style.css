@@ -302,3 +302,27 @@ h1 {
   line-height: 26px;
   padding-left: 20px;
 }
+
+.man-on-cliff {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  min-height: 731px;
+  background-image: url("../images/man-on-cliff.png");
+}
+
+.tourist {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #FFF;
+  font-family: Aleo;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
