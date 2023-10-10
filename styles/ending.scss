@@ -21,7 +21,6 @@
 }
 
 .man-on-cliff {
-    display: flex;
     width: 100%;
     min-height: 731px;
     background-image: url("../images/man-on-cliff.png");
@@ -38,3 +37,40 @@
     line-height: 26px;
 }
 
+.last-info {
+    display: flex;
+    flex-direction: column;
+    max-width: 668px;
+    min-height: 245px;
+    background-color: #333;
+    color: #E8E8E8;
+    font-family: Josefin Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 10px;
+}
+
+.txt-last-info {
+    max-width: 581px;
+    margin-left: 10%;
+}
+
+.sam-sumon {
+    color: #FEFEFE;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 130% */
+    text-transform: uppercase;
+    width: 150px;
+    margin-left: 10%;
+}
+
+.position-etc {
+    display: flex;
+    justify-content: center;
+}
