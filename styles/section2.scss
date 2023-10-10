@@ -65,15 +65,29 @@
 
 .footer-two {
     width: 100%;
-    min-height: 350px;
+    min-height: 250px;
     background-color: #333;
 }
-.bow{
+
+.bow {
     margin-top: 5%;
     display: flex;
     justify-content: center;
 }
-.shapes{
+
+.shapes {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
+}
+
+.txt-shapes {
+    display: flex;
+    justify-content: space-around;
+    color: #E8E8E8;
+    text-align: center;
+    font-family: Aleo;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
 }
