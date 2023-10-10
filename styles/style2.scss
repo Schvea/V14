@@ -1,0 +1,22 @@
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.first-section {
+    margin: auto;
+    max-width: 1000px;
+    width: 100%;
+    min-height: 600px;
+    background-image: url("../images/image\ 1.png");
+}
