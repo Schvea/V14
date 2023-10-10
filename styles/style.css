@@ -1,3 +1,7 @@
+button:hover {
+  background-color: gray;
+}
+
 body {
   max-width: 2000px;
   width: 100%;
@@ -11,6 +15,31 @@ body {
 
 h1 {
   color: rgb(255, 255, 255);
+}
+
+.bhromaon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 186px;
+  color: #FFF;
+  font-family: Josefin Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+}
+
+.introduction {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .name {
@@ -44,7 +73,6 @@ h1 {
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px;
   letter-spacing: 6.82px;
 }
 
@@ -72,21 +100,32 @@ h1 {
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
-  /* 185.714% */
   letter-spacing: 2.8px;
 }
 
 .style-button {
   background-color: #5474FD;
   border: none;
-  width: 153px;
+  max-width: 153px;
+  width: 100%;
   height: 63px;
+  color: #FFF;
+  text-align: center;
+  font-family: Aleo;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
 }
 
 .footer-one {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 100%;
   min-height: 90px;
   background-color: #5474FD;
@@ -104,14 +143,40 @@ h1 {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end;
+  color: #FFF;
+  font-family: Aleo;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  text-transform: uppercase;
+  margin-right: 10%;
+}
+
+.one {
+  padding: 10px;
+}
+
+.two {
+  padding: 10px;
+}
+
+.three {
+  padding: 10px;
+}
+
+.four {
+  padding: 10px;
 }
 
 .info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 100%;
-  min-height: 500px;
+  min-height: 600px;
   background-image: url("../images/Rectangle 41444.png");
 }
 
@@ -119,6 +184,8 @@ h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -147,12 +214,14 @@ h1 {
   font-weight: 400;
   line-height: 26px;
   letter-spacing: 1.6px;
-  width: 560px;
+  max-width: 560px;
 }
 
 .explore-places {
-  width: 228px;
-  height: 63px;
+  max-width: 228px;
+  min-height: 63px;
+  margin-bottom: 30px;
+  padding: 10px;
   background-color: #5474FD;
   border: none;
   color: #FFF;
@@ -178,11 +247,13 @@ h1 {
 .house {
   width: 350px;
   height: 220px;
+  margin-top: 10%;
 }
 
 .cliff {
   width: 350px;
   height: 220px;
+  margin-top: 10px;
 }
 
 .footer-two {
@@ -237,6 +308,13 @@ h1 {
 }
 
 .info-spain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   max-width: 543px;
   width: 100%;
   height: 350px;
@@ -248,6 +326,8 @@ h1 {
   font-weight: 400;
   line-height: 26px;
   padding-left: 20px;
+  margin-top: 15%;
+  margin-right: 15%;
 }
 
 .grand-spain-madrid {
@@ -273,7 +353,7 @@ h1 {
 }
 
 .txt-info-spain {
-  width: 508px;
+  max-width: 508px;
 }
 
 .book-now {

@@ -1,12 +1,14 @@
 .info {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
-    min-height: 500px;
+    min-height: 600px;
     background-image: url("../images/Rectangle\ 41444.png")
 }
 
 .info-about {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     margin-left: 10%;
     justify-content: center;
@@ -30,12 +32,14 @@
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 1.6px;
-    width: 560px;
+    max-width: 560px;
 }
 
 .explore-places {
-    width: 228px;
-    height: 63px;
+    max-width: 228px;
+    min-height: 63px;
+    margin-bottom: 30px;
+    padding: 10px;
     background-color: #5474FD;
     border: none;
     color: #FFF;
@@ -56,11 +60,13 @@
 .house {
     width: 350px;
     height: 220px;
+    margin-top: 10%;
 }
 
 .cliff {
     width: 350px;
     height: 220px;
+    margin-top: 10px;
 }
 
 .footer-two {
