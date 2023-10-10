@@ -1,10 +1,11 @@
-body{
+body {
     max-width: 2000px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
 }
+
 h1 {
     color: rgb(255, 255, 255);
 }
@@ -37,7 +38,6 @@ h1 {
 }
 
 .first-section {
-    margin: auto;
     width: 100%;
     min-height: 600px;
     background-image: url("../images/image\ 1.png");
@@ -48,8 +48,24 @@ h1 {
     justify-content: center;
 }
 
+.search-bar input {
+    width: 500px;
+    color: #999;
+    text-align: center;
+    font-family: Josefin Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 185.714% */
+    letter-spacing: 2.8px;
+}
+
 .style-button {
     background-color: #5474FD;
+    border: none;
+    width: 153px;
+    height: 63px;
 }
 
 .footer-one {
