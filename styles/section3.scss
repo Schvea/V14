@@ -21,7 +21,7 @@
     line-height: 26px;
     padding-left: 20px;
     margin-top: 15%;
-    margin-right: 15%;
+    margin: 15%;
 }
 
 .grand-spain-madrid {
@@ -51,8 +51,8 @@
 }
 
 .book-now {
-    width: 228px;
-    height: 63px;
+    max-width: 228px;
+    min-height: 63px;
     background-color: #5474FD;
     border: none;
     color: #FFF;
