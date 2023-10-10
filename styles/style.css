@@ -9,6 +9,16 @@ h1 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  color: #FFF;
+  text-align: center;
+  font-family: Josefin Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  /* 54.167% */
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
 }
 
 .description {
@@ -18,12 +28,19 @@ h1 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: white;
+  color: #FFF;
+  text-align: center;
+  font-family: Josefin Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  /* 118.182% */
+  letter-spacing: 6.82px;
 }
 
 .first-section {
   margin: auto;
-  max-width: 1000px;
   width: 100%;
   min-height: 600px;
   background-image: url("../images/image 1.png");
@@ -33,6 +50,22 @@ h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.style-button {
+  background-color: #5474FD;
+}
+
+.footer-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  min-height: 90px;
+  background-color: #5474FD;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
